@@ -1,4 +1,4 @@
-import mongoose, { Schema } from 'mongoose';
+import mongoose, { Schema } from 'mongoose'
 
 const topicSchema = new Schema(
   {
@@ -8,8 +8,8 @@ const topicSchema = new Schema(
   {
     timestamps: true,
   }
-);
+)
 
-const Topic = mongoose.models.Topic || mongoose.model('Topic', topicSchema);
+const Topic = mongoose.models.Topic || mongoose.model('Topic', topicSchema)
 
-export default Topic;
+export default Topic
